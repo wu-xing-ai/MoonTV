@@ -84,6 +84,16 @@
     "xiaomaomi": {
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源"
+    },
+    "bdzy": {
+      "api": "https://api.1080zyku.com/inc/apijson_vod.php",
+      "name": "百度资源",
+    },
+    "ykzy": {
+      "api": "https://api.yongjiuzy.cc/provide/vod",
+      "name": "永久资源",
+      "is_adult": false
     }
+    
   }
 }
