@@ -1,4 +1,4 @@
-const CURRENT_VERSION = '20260502141243';
+const CURRENT_VERSION = '20260502141437';
 
 // 导出当前版本号供其他地方使用
 export { CURRENT_VERSION };
