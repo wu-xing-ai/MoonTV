@@ -20,7 +20,7 @@ jobs:
 
       - name: Fetch config.json from upstream
         run: |
-          curl -sL "https://raw.githubusercontent.com/senshinya/MoonTV/main/config.json" -o upstream_config.json
+          curl -sL "https://raw.githubusercontent.com/samqin123/MoonTV/main/config.json" -o upstream_config.json
 
       - name: Check if config.json changed
         id: check

@@ -3,6 +3,7 @@
 'use client';
 
 import { Clover, Film, Home, Menu, Search, Star, Tv } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import {
@@ -34,6 +35,13 @@ const Logo = () => {
       href='/'
       className='flex items-center justify-center h-16 select-none hover:opacity-80 transition-opacity duration-200'
     >
+      <Image
+        src='/icons/icon-192x192.png'
+        alt={siteName}
+        width={32}
+        height={32}
+        className='h-8 w-8 rounded-lg mr-2'
+      />
       <span className='text-2xl font-bold text-green-600 tracking-tight'>
         {siteName}
       </span>
